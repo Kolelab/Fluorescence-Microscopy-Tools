@@ -1,5 +1,5 @@
 # Fluorescence-Microscopy-Tools
-A collection of scripts and building instructions for fluorescence microscopy applications.
+A collection of tools for fluorescence microscopy applications that include code and building instructions.
 This portfolio is a collection of scripts for fluorescence microscopy applications. 
 These different projects were initiated to provide a solution for:
 1. Combining live overlay of transmitted light and epifluorescence images for electrophysiology experiments. It can be easily  adopted to e.g. cell culture applications.  
