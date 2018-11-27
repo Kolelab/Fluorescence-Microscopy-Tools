@@ -10,9 +10,9 @@ These different projects were initiated to provide a versatile open-source solut
 
 Project | Description
 ------------ | -------------
-TEAMSTER | Code for Micromanager and Arduino to perform switching of light sources and overlay two imaging channels in Micromanager. Building instructions and circuit diagrams are provided.
-Popsar | PropellerIDE code for high-speed dual imaging or simultaneous photo-activation and imaging (dual-channel). Circuit diagram and building instructions for Popsar are also provided
-SLIDER | Arduino code for digital control of LED intensities, building instructions, circuit diagrams and stl files for a 3D printable enclosure.
+TEAMSTER | Code for Micromanager and Arduino to perform switching of light sources and overlay of two imaging channels in Micromanager. Building instructions and circuit diagrams are provided.
+Popsar | PropellerIDE code for high-speed dual imaging or simultaneous photo-activation and imaging (dual-channel). Circuit diagram and building instructions for Popsar are provided.
+SLIDER | Arduino code for digital control of LED intensities, building instructions, circuit diagrams and stl files for a 3D printable enclosure are provided.
 
 
 Some of the underlying principal concepts about hardware triggering are discussed and explained here:
