@@ -1,10 +1,11 @@
 # Fluorescence-Microscopy-Tools
-A collection of scripts and building instructions for fluorescence microscopy applications
+A collection of scripts and building instructions for fluorescence microscopy applications.
 This portfolio is a collection of scripts for fluorescence microscopy applications. 
 These different projects were initiated to provide a solution for combining live 
 overlay of transmitted light and epifluorescence images for electrophysiology experiments, but 
-can also be adopted to e.g. cell culture applications. Other projects include code for imaging 
-of e.g. fluorescent calcium indicators (OGB-1, Fluo-4, GCaMPs) and control of LED intensities.
+can also be adopted to e.g. cell culture applications. Other projects include: 
+1. Popsar - code for imaging of e.g. fluorescent calcium indicators (OGB-1, Fluo-4, GCaMPs) 
+1. Slider - digital control of LED intensities.
 
 
 
