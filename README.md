@@ -15,5 +15,5 @@ Popsar | PropellerIDE code for high-speed dual imaging or simultaneous photo-act
 SLIDER | Arduino code for digital control of LED intensities, building instructions, circuit diagrams and stl files for a 3D printable enclosure.
 
 
-Some of the underlying principal concepts about hardware triggering are discussed here:
+Some of the underlying principal concepts about hardware triggering are discussed and explained here:
 https://github.com/vanNimwegenLab/MiM_NikonTi/blob/master/Docs/NikonTi_hardware_triggering.md
