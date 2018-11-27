@@ -2,8 +2,7 @@
 A collection of scripts and building instructions for fluorescence microscopy applications.
 This portfolio is a collection of scripts for fluorescence microscopy applications. 
 These different projects were initiated to provide a solution for:
-1. Combining live overlay of transmitted light and epifluorescence images for electrophysiology experiments, but 
-can also be adopted to e.g. cell culture applications.  
+1. Combining live overlay of transmitted light and epifluorescence images for electrophysiology experiments. It can be easily  adopted to e.g. cell culture applications.  
 1. Fast imaging of fluorescent calcium indicators (OGB-1, Fluo-4, GCaMPs) 
 1. Slider - digital control of LED intensities.
 
