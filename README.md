@@ -1,7 +1,7 @@
 # Fluorescence-Microscopy-Tools
-A collection of tools for fluorescence microscopy applications that include code and building instructions.
-This portfolio is a collection of scripts for fluorescence microscopy applications. 
-These different projects were initiated to provide a solution for:
+A collection of tools for life science fluorescence microscopy applications that include code and building instructions.
+This portfolio is the github directory for *manuscript title*. 
+These different projects were initiated to provide a versatile open-source solution for:
 1. Combining live overlay of transmitted light and epifluorescence images for electrophysiology experiments. It can be easily  adopted to e.g. cell culture applications.  
 1. Fast imaging of e.g. fluorescent calcium indicators (Fura-2, OGB-1, Fluo-4, GCaMPs) or any other fluorescent indicator 
 1. Digital precise control of LED intensities.
