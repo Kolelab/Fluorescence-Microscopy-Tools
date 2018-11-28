@@ -2,8 +2,7 @@
 
 SLIDER - Simple light digitizer, provides digital control of LED intensities when the Thorlabs T-cube LED driver 
 is used in modulation mode. SLIDER is designed to be interconnected between LED triggering hardware and the T-cube driver.
-By integrating a built-in analog switch delays are kept at a mimimun. Steps are coded at 12 bit allowing fine adjustment 
-of LED intensities.
+By integrating a built-in analog switch, delays are kept at a mimimun. Steps are coded at 12 bit allowing repeatable fine adjustment of LED intensities.
 
 
 ## Part list
