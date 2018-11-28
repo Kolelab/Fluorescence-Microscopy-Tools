@@ -15,6 +15,7 @@ Scripts are written in the Bean Shell scripting language.
 Executing one of the two scripts will generate a live overlay of two subsequent acquired channels. The frequency of overlay is half of the acquisition rate. Two scripts for acquisition rates of 10 Hz or 20 Hz are provided. 
 
 
+
 ## Part list
 
 The prices are given as an estimate and can vary from country to country.
@@ -35,6 +36,7 @@ Alternatively a do-it-yourself protoype enclosure could be made as suggested els
 https://blog.everydayscientist.com/?p=3139
 
 http://labrigger.com/blog/2014/07/08/cardboard-for-prototyping/
+
 
 
 ## Further Instructions
