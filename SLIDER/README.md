@@ -33,10 +33,9 @@ Enclosure | 3D printed | N/A | Stl files provided | N/A
 
 ## Further Instructions
 
-1. Wire the board according to the schematic. Take your time, this is a lot of soldering.
+1. Wire the board according to the schematic. Take your time quite a lot of soldering is required. 
 ![Circuit Image](https://github.com/Kolelab/Fluorescence-Microscopy-Tools/blob/master/SLIDER/Circuit%20SLIDER.png)
+1. Before connecting the power supply test all connections with a volt-meter.
 1. Connect the BNC connectors to the board.
-1. Test the connections.
 1. Hook up LEDs to inputs and outputs.
 1. Test.
-
