@@ -31,8 +31,10 @@ http://labrigger.com/blog/2014/07/08/cardboard-for-prototyping/
 ![Circuit Image](https://github.com/Kolelab/Fluorescence-Microscopy-Tools/blob/master/Popsar/Circuit%20Popsar.png)
 1. Connect the BNC connectors to the board.
 1. Test the connections.
+1. Determine polarity of camera pulse given at frame exposure.
 1. Download the PropellerIDE.
 1. Download from /Popsar/Scripts/... repository the code for either 80 Hz or 1 kHz. 
+1. Adjust camera pulse polarity if necessary --> see Note in /Scripts
 1. Load the code into the Propller IDE.
 1. Connect the propeller board.
 1. Write the code to the propeller board.
