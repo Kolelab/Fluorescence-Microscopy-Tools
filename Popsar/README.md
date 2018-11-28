@@ -1,1 +1,46 @@
 # Popsar
+
+## General Information
+
+Popsar is based on the real-time and parallel processing board Propeller ASC+. It is programmed in the freely available
+PropellerIDE https://developer.parallax.com/propelleride/
+
+
+## Part list
+
+The prices are given as an estimate and can vary from country to country.
+
+Item | Supplier/Manufacturer | Catalogue # | Note | Cost (€)
+------------ | ------------- | ------------- | ------------- | -------------
+Propeller ASC+ | Parallax Inc. | 32214 | Can be purchased from RS components. | 56
+Power supply | Farnell | 2451882 | 6-9 V power supply with 2.1 mm jack. The propeller board can also be powered from USB. | 10
+BNC connectors | Farnell | 1020959 | Any other panel mount BNC connector can be used. | 1.5/piece
+Enclosure | e.g. from Farnell | N/A | Select an enclosure that fits the dimensions of the board. | up to 30
+
+Alternatively a do-it-yourself protoype enclosure could be made as suggested elsewhere:
+
+https://blog.everydayscientist.com/?p=3139
+
+http://labrigger.com/blog/2014/07/08/cardboard-for-prototyping/
+
+
+## Further Instructions
+
+1. Wire the board according to the schematic. 
+
+![Fluorescence-Microscopy-Tools/Popsar](Circuit Popsar.png)
+
+1. Connect the BNC connectors to the board.
+1. Download the PropellerIDE.
+1. Download from /Popsar/Scripts/... the code for either 80 Hz or 1 kHz. 
+1. Load the code into the Propller IDE.
+1. Connect the propeller board.
+1. Write the code to the propeller board.
+1. Test.
+
+
+
+
+
+
+
