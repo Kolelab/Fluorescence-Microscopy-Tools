@@ -1,6 +1,6 @@
 # TEAMSTER
 
-This is the collection of circuit diagram, code and building instructions for TEAMSTER.
+This is the collection of circuit diagram, code and building instructions for TEAMSTER. Teamster enables LED and camera synchronization via Micromanager for life science microscopy applications.
 
 1. The circuit diagramm shows the pin-in pin-out structure for the provied Arduino code.
 Teensy 3.2 and 3.5 can be used as both support 5V signals.
