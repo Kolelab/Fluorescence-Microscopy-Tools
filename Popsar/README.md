@@ -15,8 +15,8 @@ Item | Supplier/Manufacturer | Catalogue # | Note | Cost (€)
 Propeller ASC+ | Parallax Inc. | 32214 | Can be purchased from RS components. | 56
 Power supply | Farnell | 2451882 | 6-9 V power supply with 2.1 mm jack. The propeller board can also be powered from USB. | 10
 BNC connectors | Farnell | 1020959 | Any other panel mount BNC connector can be used. | 1.5/piece
-Enclosure | e.g. from Farnell | N/A | Select an enclosure that fits the dimensions of the board. | up to 30
-10 KΩ resistor | e.g. from Farnell | N/A | Any will do, you might have one lying around. | <1
+Enclosure | e.g. from Farnell, Digikey or Mouser | N/A | Select an enclosure that fits the dimensions of the board. | up to 30
+10 KΩ resistor | e.g. from Farnell, Digikey or Mouser | N/A | Any will do, you might have one lying around. | <1
 
 Alternatively a do-it-yourself protoype enclosure could be made as suggested elsewhere:
 
