@@ -5,8 +5,8 @@ This is the collection of circuit diagram, code and building instructions for TE
 1. The circuit diagramm shows the pin-in pin-out structure for the provied Arduino code.
 Teensy 3.2 and 3.5 can be used as both support 5V signals.
 
-1. There are two different parts of code for TEAMSTER which can be found in subfolders.
-In Teamster/Arduino there are two sketches wich are written in Arduino compatible code.
+1. There are two versions of code for TEAMSTER, which can be found in directories in TEAMSTER/Arduino/.
+Code is in the Arduino progamming language.
 Once the Teensy board is recognized by the Arduino environment 
 (instructions see: https://www.pjrc.com/teensy/td_download.html ) the code can be verified and uploaded.
 * Version 5: is older and requires the board to be wired as shown below. 
