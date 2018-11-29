@@ -9,6 +9,8 @@ Teensy 3.2 and 3.5 can be used as both support 5V signals.
 In Teamster Arduino there are two sketches wich are written in Arduino compatible code.
 Once the Teensy board is recognized by the Arduino environment 
 (instructions see: https://www.pjrc.com/teensy/td_download.html ) the code can be verified and uploaded.
+* Version 5: is older and requires the board to be wired as shown below. 
+* Version 6: NEWEST version, in which the pullup resistors are defined in the code 
 
 1. In Teamster Bean Shell Scripts we provide code that can be loaded from the scripting environment of Micromanger. 
 Scripts are written in the Bean Shell scripting language.
@@ -45,8 +47,12 @@ http://labrigger.com/blog/2014/07/08/cardboard-for-prototyping/
 ![Circuit Image](https://github.com/Kolelab/Fluorescence-Microscopy-Tools/blob/master/TEAMSTER/Circuit%20TEAMSTER.png)
 1. Connect the BNC connectors to the board.
 1. Test the connections.
+1. Connect the Arduino via USB to the computer
+1. Start the ArduinoIDE
+1. Open Fluorescence-Microscopy-Tools/TEAMSTER/Micromanager-teensy-v5-cleanup/Micromanager-teensy-v5-cleanup.ino and upload via the ArduinoIDE to the Teensy board.
 1. Hook up camera and LEDs to inputs and outputs.
 1. Set up Micromanager according to the instructions provided in Fluorescence-Microscopy-Tools/TEAMSTER/MicroManager_instructions.pdf
 1. Test.
+1. **NB: A newer version of the Arduino
 
 
