@@ -2,7 +2,11 @@
 
 SLIDER - Simple light digitizer, provides digital control of LED intensities when the Thorlabs T-cube LED driver 
 is used in modulation mode. SLIDER is designed to be interconnected between LED triggering hardware and the T-cube driver.
-By integrating a built-in analog switch, delays are kept at a mimimun. Steps are coded at 12 bit allowing repeatable fine adjustment of LED intensities.
+By integrating a built-in analog switch, delays are kept at a mimimun. Steps are coded with 12 bit resolution allowing repeatable fine adjustment of LED intensities.
+**Requirements**
+1. Arduino IDE
+1. Teensy Arduino plug-in https://www.pjrc.com/teensy/td_download.html
+
 
 
 ## Part list
@@ -32,9 +36,14 @@ Enclosure | 3D printed | N/A | Stl files provided | N/A
 
 ## Further Instructions
 
-1. Wire the board according to the schematic. Take your time quite a lot of soldering is required. 
+1. Wire the board according to the schematic. Take your time and check connctions as quite a lot of soldering is required. 
 ![Circuit Image](https://github.com/Kolelab/Fluorescence-Microscopy-Tools/blob/master/SLIDER/Circuit%20SLIDER.png)
 1. Before connecting the power supply test all connections with a volt-meter.
 1. Connect the BNC connectors to the board.
 1. Hook up LEDs to inputs and outputs.
+1. Load the Arduino sketch into the Arduino IDE
+1. **if applicable** change the wavelength of the LEDs that is displayed on the screen in the source code (see comment).
+1. Upload the Arduino sketch /SLIDER/ARDUINO/PinkBox-5V-8btn-scrn.ino to the Teensy board.
+1. Connect to power and confirm that screen works.
 1. Test.
+1. Start with experiments.
