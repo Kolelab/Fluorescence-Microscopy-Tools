@@ -1,0 +1,119 @@
+// Live DIC overlayed with Fluorescence
+// Marko Popovic, Nederlands Herseninstituut, 2015.
+// requires arduino program that takes frame exposure and uses the timing to trigger LED cubes
+
+// not sure which imports are needed, so here are some and it works...
+import java.lang.System; 
+import org.micromanager.api.AcquisitionOptions;
+import ij.*;
+import ij.gui.*;
+import ij.process.*;
+
+// snap fluorescence flag and run flag
+boolean runn = true;
+boolean snapp = true;
+
+// name channels and set exposure
+String channelGroup = "Mode"; 
+String dicChannel = "Dual"; 
+
+int flag = 1;
+// clear messages
+gui.clearMessageWindow();
+
+// set window name and path
+acqName = "Overlay";
+rootDirName = "users/asx_4/pictures";
+
+// change what should be displayed at channel 0 and what at channel 1
+fluoN = 0;
+dicN = 1;
+
+// create new acquisition window
+// try is here to check if the window is already open
+// it will fail if it is but there will be no consequence
+try {
+	gui.openAcquisition(acqName, rootDirName, 1, 2, 1); 
+} catch (m) {
+} finally {
+}
+
+gui.setChannelName(acqName, fluoN, "Fluo"); 
+gui.setChannelName(acqName, dicN, "DIC");   
+
+// Create control window add listen to keypress and button click
+button = new java.awt.Button("Click to close, key to switch channels");
+frame = new java.awt.Frame( "Control" );
+
+    keyPressed( event ) {
+        // event can be used to restrict to R only now it is any key .... print( event );
+        snapp = true;
+    }
+    actionPerformed( event ) {
+        // if clicked stop acquisition .... print( event );
+        runn = false;
+    }
+    button.addActionListener( this );
+    button.addKeyListener( this );
+    button.setPreferredSize(new Dimension(400, 200));
+    frame.add( button, "Center" );
+    frame.pack();
+    frame.setLocation(1,1);
+    frame.setVisible(true);
+
+// runn variable exits the program when the button is clicked
+while (runn) {
+
+  mmc.setConfig(channelGroup, dicChannel); 
+  mmc.waitForConfig(channelGroup, dicChannel); 
+  gui.snapAndAddImage(acqName, 0, fluoN, 0, 0);
+  WindowManager.getCurrentWindow().setLocationAndSize(-1600,1,1600,1400);
+  WindowManager.getCurrentWindow().setLocationAndSize(-1600,1,1600,1400);
+  gui.setChannelColor(acqName, fluoN, Color.RED); 
+  gui.setChannelColor(acqName, dicN, Color.WHITE); 
+
+  snapp = false;
+  
+
+
+  // start DIC acquisition
+  mmc.startContinuousSequenceAcquisition(0); 
+  while (mmc.getRemainingImageCount() > 0 || mmc.isSequenceRunning()) { 
+    if (mmc.getRemainingImageCount() > 0) { 
+    	// if user was clicking to adjust contrast, bring the focus back to the button
+      button.requestFocus();
+      img = mmc.popNextImage(); 
+      // if the window is closed mid-acquisition it will fail so exit nicely
+      try {
+      	if (snapp) {
+      		snapp = false;
+      	} else {
+      		if (flag > 0) {
+      			gui.addImage(acqName, img, 0, dicN, 0);
+      			flag = -1;
+      		} else {
+      			gui.addImage(acqName, img, 0, fluoN, 0);
+      			flag = 1;
+      	  }
+      	}
+      } catch (m) {
+      	mmc.stopSequenceAcquisition();
+      	runn = false;
+      } finally {
+      }; 
+    }; 
+  	 if (runn == false) { 
+    	// if so, stop DIC
+      mmc.stopSequenceAcquisition();
+    }; 
+  }; 
+};
+
+// cleanup the button window
+gui.promptToSaveAcquisition(acqName,false);
+gui.closeAcquisitionWindow(acqName);
+frame.dispose();
+gui.message("done");
+
+
+ 
