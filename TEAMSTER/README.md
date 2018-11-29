@@ -8,10 +8,8 @@ Teensy 3.2 and 3.5 can be used as both support 5V signals.
 Code is in the Arduino progamming language.
 Once the Teensy board is recognized by the Arduino environment 
 (instructions see: https://www.pjrc.com/teensy/td_download.html ) the code can be verified and uploaded.
-
-**NB**: Version 5: is older and requires the board to be wired as shown below. 
-
-**NB**: Version 6: **NEWEST** version, in which the the code was changed so resistors as shown below can be omitted.
+  1. **NB**: Version 5: is older and requires the board to be wired as shown below. 
+  1. **NB**: Version 6: **NEWEST** version, in which the the code was changed so resistors as shown below can be omitted.
 1. In Teamster/Bean-Shell-Scripts we provide code that can be loaded from the scripting environment of Micromanger. 
 Scripts are written in the Bean Shell scripting language.
 Executing one of the two scripts will generate a live overlay of two subsequent acquired channels. The frequency of overlay is half of the acquisition rate. Two scripts for acquisition rates of 10 Hz or 20 Hz are provided. 
