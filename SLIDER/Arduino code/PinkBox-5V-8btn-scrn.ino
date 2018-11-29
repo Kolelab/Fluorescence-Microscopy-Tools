@@ -192,12 +192,12 @@ void tft2LEDTextTest() {
   tft.setTextColor(ST7735_GREEN);
   tft.setTextSize(3);
   tft.println(" ");
-  tft.println("340 nm");
+  tft.println("340 nm"); //change this number in case other activation wavelengths will be used
   tft.println(ledi1s);  
   tft.println(" ");
   tft.setTextColor(ST7735_RED);
   tft.setTextSize(3);
-  tft.println("420 nm");
+  tft.println("420 nm"); //change this number in case other activation wavelengths will be used
   tft.println(ledi2s);  
 
 }
