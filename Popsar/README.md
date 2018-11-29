@@ -2,8 +2,11 @@
 
 ## General Information
 
+Popsar is a dual channel high frequency splitter for e.g. fast imaging of two fluophores, ratiometric imaging or 
+imaging and interleaved photostimulation. A single input channel is alternatively assigned to one of the two output channels.
 Popsar is based on the real-time and parallel processing board Propeller ASC+. It is programmed in the freely available
 PropellerIDE https://developer.parallax.com/propelleride/
+
 
 
 ## Part list
