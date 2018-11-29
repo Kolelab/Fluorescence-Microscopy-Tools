@@ -46,7 +46,7 @@ http://labrigger.com/blog/2014/07/08/cardboard-for-prototyping/
 1. Connect the BNC connectors to the board.
 1. Test the connections.
 1. Hook up camera and LEDs to inputs and outputs.
-1. Set up Micromanager according to the instructions provided in /TEAMSTER/MMinstructions.pdf.
+1. Set up Micromanager according to the instructions provided in Fluorescence-Microscopy-Tools/TEAMSTER/MicroManager_instructions.pdf
 1. Test.
 
 
