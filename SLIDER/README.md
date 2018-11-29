@@ -43,7 +43,7 @@ Enclosure | 3D printed | N/A | Stl files provided | N/A
 1. Hook up LEDs to inputs and outputs.
 1. Load the Arduino sketch into the Arduino IDE
 1. **if applicable:**  Change the wavelength of the LEDs that is displayed on the screen in the source code (see comment).
-1. Upload the Arduino sketch /SLIDER/ARDUINO/PinkBox-5V-8btn-scrn.ino to the Teensy board.
+1. Upload the Arduino sketch located in Fluorescence-Microscopy-Tools/SLIDER/Arduino code/PinkBox-5V-8btn-scrn.ino to the Teensy board.
 1. Connect to power and confirm that screen works.
 1. Test.
 1. Start with experiments.
