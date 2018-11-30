@@ -45,7 +45,7 @@ http://labrigger.com/blog/2014/07/08/cardboard-for-prototyping/
 
 
 ## Image Processing
-After images are acquired images require splitting into two channels. We have implemented a Frame Splitter for RedShirt Imaging files and provide the source code here: Image-analysis/Frame Splitter.txt
+After images are acquired images require splitting into two channels. We have implemented a Frame Splitter for RedShirt Imaging files and provide the source code here: https://github.com/Kolelab/Image-analysis/blob/master/FrameSplitter.txt
 
 
 
