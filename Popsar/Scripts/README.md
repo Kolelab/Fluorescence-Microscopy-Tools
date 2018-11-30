@@ -9,7 +9,7 @@ Scripts were written for RedShirtImaging (RSI) cameras. Depending on the manufac
 ### Script in: Fluorescence-Microscopy-Tools/Popsar/Scripts/Popsar_inverted_80Hz
 * This script detectes inverted camera output pulses (from high to low).
 * The script has a software coded acqusition frequency (can be changed).
-* The opto-gate is implemented. Output is provided to one TTL unless the opto-gate is receiving an input, then both TTL ouputs are assigned.
+* The opto-gate is implemented. When a BNC is connected to the opto-gate only one TTL is activated unless the opto-gate is receiving an input, then both TTL ouputs are assigned.
 
 Lines 145-149 require editing if camera provides positive pulses (low to high):
 ```
