@@ -13,11 +13,13 @@ Scripts were written for RedShirtImaging (RSI) cameras. Depending on the manufac
 
 
 ### Scripts in: Fluorescence-Microscopy-Tools/Popsar/Scripts/Popsar_normal_1kHz/ 
-* These two scripts are different versions.
+* These two scripts are different versions:
+  * Fluorescence-Microscopy-Tools/Popsar/Scripts/Popsar_normal_1kHz/Dual Popsar V0 - External 1kHz.spin has a defined 1 kHz acquisition frequency (can be changed in the code).
+  * Fluorescence-Microscopy-Tools/Popsar/Scripts/Popsar_normal_1kHz/new_popsar_newRSI_alwayspin0_WIP.spin autodetection of acquisition frame rate is implemented (first 2 frames are discarded).
+** NB: Neccesiates a synchronization pulse when used in conjungtion with electrophysiology (as imaging frames are shifted).
 * Detected are normal polarity pulses (low to high).
-* Autodetection of acquisition frame rate is implemented (first frames are discarded).
-* Opto-gate is not implemented.
-* Neccesiates a synchronization pulse when used in conjungtion with electrophysiology (as imaging frames are shifted).
+* Opto-gate is not implemented in these two scripts as activation frequencies are presumably too short at 1 Khz to sufficiently activtate channelrhodopsin (not tested).
+
 
 
 Lines 51 and 52 as well as 54 and 55 require editing if camera gives out inverted pulses:
