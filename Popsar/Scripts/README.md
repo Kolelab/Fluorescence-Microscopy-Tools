@@ -21,17 +21,17 @@ Scripts were written for RedShirtImaging (RSI) cameras. Depending on the manufac
 
 
 Lines 51 and 52 as well as 54 and 55 require editing if camera gives out inverted pulses:
-
+```
 waitpne _Cam2, _Cam2                    'wait for camera pulse to be off
 waitpeq _Cam2, _Cam2                    'wait for camera pulse to be on 
- 
+```
 This detects off -> on transition or rising phase.
  
 If the camera sends falling phase then it would be:
- 
+ ```
 waitpeq _Cam2, _Cam2                    'wait for camera pulse to be on 
 waitpne _Cam2, _Cam2                    'wait for camera pulse to be off
- 
+``` 
  
 
 
