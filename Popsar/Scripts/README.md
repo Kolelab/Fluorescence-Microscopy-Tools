@@ -43,7 +43,7 @@ Lines 59-60 determine pulse duration automatically.
 shr     _End, #2                    'divide by 4 and round (this is the delay)
 shr     _End2, #1                   'divide by 2 and round (this is the pulse)
   ```
-Now this was quick and dirty. Fast current drivers like Cyclops don´t need a quarter of time for delay.
+Now this was quick and dirty. Fast current drivers like [Cyclops](http://www.open-ephys.org/cyclops/) don´t need a quarter of time for delay.
 These are **very** safe values. Advanced users should reduce delay for fast current drivers.
 
 
