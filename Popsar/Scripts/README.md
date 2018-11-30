@@ -21,6 +21,7 @@ Scripts were written for RedShirtImaging (RSI) cameras. Depending on the manufac
 * Opto-gate is not implemented in these two scripts as activation frequencies are presumably too short at 1 Khz to sufficiently activtate channelrhodopsin (not tested).
 
 
+#### new_popsar_newRSI_alwayspin0_WIP
 
 Lines 51 and 52 as well as 54 and 55 require editing if camera gives out inverted pulses:
 ```
@@ -35,6 +36,14 @@ waitpeq _Cam2, _Cam2                    'wait for camera pulse to be on
 waitpne _Cam2, _Cam2                    'wait for camera pulse to be off
 ``` 
  
+ 
+Lines 59-60 determine pulse duration automatically.
 
+ ``` 
+shr     _End, #2                    'divide by 4 and round (this is the delay)
+shr     _End2, #1                   'divide by 2 and round (this is the pulse)
+  ```
+Now this was quick and dirty. Fast current drivers like Cyclops don´t need a quarter of time for delay.
+These are **very** safe values. Advanced users should reduce delay for fast current drivers.
 
 
