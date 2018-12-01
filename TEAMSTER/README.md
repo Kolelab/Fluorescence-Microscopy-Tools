@@ -12,7 +12,7 @@ Once the Teensy board is recognized by the Arduino environment
   * **NB**: Version 6: **NEWEST** version, in which the the code was changed so resistors as shown below can be omitted.
 * In Teamster/Bean-Shell-Scripts we provide code that can be loaded from the scripting environment of Micromanger. 
 Scripts are written in the Bean Shell scripting language.
-Executing one of the two scripts will generate a live overlay of two subsequent acquired channels. The frequency of overlay is half of the acquisition rate. Two scripts for acquisition rates of 10 Hz or 20 Hz are provided. 
+Executing one of the two scripts will generate a live overlay of two subsequent acquired image channels. The frequency of overlay is half of the acquisition rate. Two scripts for acquisition rates of 10 Hz or 20 Hz are provided. 
 
 
 
@@ -29,7 +29,7 @@ Switch |Farnell| 2128119 | Panel Mount | 3.5
 Enclosure | e.g. from Farnell, Digikey or Mouser | N/A | Select an enclosure that fits the dimensions of the board. | up to 30
 10 KΩ resistors | e.g. from Farnell, Digikey or Mouser | N/A | Any will do, you might have one lying around. | <1
 
-If you have access to a 3D printer you can also print an enclosure as provided in the stl file.
+If you have access to a 3D printer you can also print an enclosure that is provided in Fluorescence-Microscopy-Tools/TEAMSTER/3DPrints/Enclosure.stl .
 
 Alternatively a do-it-yourself protoype enclosure could be made as suggested elsewhere:
 
