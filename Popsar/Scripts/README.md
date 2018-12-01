@@ -29,6 +29,7 @@ The timing of the pulse is defined in lines 35 to 61 and the following lines can
   
     OutputPulseDuration:=(clkfreq/1000)*10          ' This is the duration of the pulse (10 ms)
     
+    
     PulseInterval:=(clkfreq/1000)*12.5              ' This is the total duration of one cycle 
                                                     ' and at the moment 80 Hz/40 Hz channel.
 ```
