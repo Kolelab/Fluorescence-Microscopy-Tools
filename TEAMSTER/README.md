@@ -29,8 +29,7 @@ Switch |Farnell| 2128119 | Panel Mount | 3.5
 Enclosure | e.g. from Farnell, Digikey or Mouser | N/A | Select an enclosure that fits the dimensions of the board. | up to 30
 10 KΩ resistors | e.g. from Farnell, Digikey or Mouser | N/A | Any will do, you might have one lying around. | <1
 
-If you have access to a 3D printer you can also print an enclosure that is provided in Fluorescence-Microscopy-Tools/TEAMSTER/3DPrints/Enclosure.stl .
-
+If you have access to a 3D printer you can also print an enclosure that is provided as [stl](https://github.com/Kolelab/Fluorescence-Microscopy-Tools/blob/master/TEAMSTER/3DPrints/Enclosure.stl) file.
 Alternatively a do-it-yourself protoype enclosure could be made as suggested elsewhere:
 
 https://blog.everydayscientist.com/?p=3139
