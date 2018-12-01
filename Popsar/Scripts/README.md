@@ -22,6 +22,14 @@ Lines 145-149 require editing if camera provides positive pulses (low to high):
 
 ```
 
+The timing of the pulse is defined in lines 35 to 61 and the following lines can be edited to changed the acquisition frequency.
+```
+  OutputPulseDelay:=(clkfreq/1000)*1                ' this is a delay of 1 ms adjust as appropriate, but it also depends on       speed of LED driver
+  
+    OutputPulseDuration:=(clkfreq/1000)*10          ' This is the duration of the pulse 
+    
+    PulseInterval:=(clkfreq/1000)*12.5              ' This is the total duration of one cycle and at the moment 80 Hz/40 Hz channel.
+```
 
 ### Scripts in: Fluorescence-Microscopy-Tools/Popsar/Scripts/Popsar_normal_1kHz/ 
 * These two scripts are different versions:
